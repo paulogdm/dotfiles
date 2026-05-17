@@ -1,24 +1,12 @@
 # Logitech Options+
 
-## What's tracked
-
-| File | What it controls |
-|------|-----------------|
-| `cc_config.json` | UI theme (dark mode) |
-
 ## What can't be tracked
 
-Button mappings, pointer speed, scroll settings, and macros are stored in binary SQLite databases (`settings.db`, `macros.db`) inside `~/Library/Application Support/LogiOptionsPlus/`. There is no official export feature.
+All settings — button mappings, pointer speed, scroll, macros, and camera settings (RightLight, zoom, auto-framing) — are stored in binary SQLite databases (`settings.db`, `macros.db`) inside `~/Library/Application Support/LogiOptionsPlus/`. There is no official export feature.
 
 ## Install
 
 `logi-options+` is included in the Brewfile and will be installed automatically by `install.sh`.
-
-## Restore cc_config.json
-
-```bash
-cp logitech/cc_config.json ~/Library/Application\ Support/LogiOptionsPlus/cc_config.json
-```
 
 ## Manual settings to re-apply after a fresh install
 
