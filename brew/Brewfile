@@ -1,5 +1,3 @@
-tap "resend/cli"
-
 # CLI tools
 brew "docker"
 brew "docker-compose"
