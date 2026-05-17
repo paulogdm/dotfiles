@@ -7,13 +7,14 @@ Raycast settings and extension data are stored in encrypted SQLite databases and
 
 ## Installed Extensions
 
-| Extension | Source |
-|-----------|--------|
-| (Sign in to Raycast to see your extension list at Raycast Store) | |
+| Extension | Raycast Store |
+|-----------|--------------|
+| Homebrew  | [raycast.com/store](https://www.raycast.com/Evandro/homebrew) |
+| Spotify   | [raycast.com/store](https://www.raycast.com/mattisssa/spotify-player) |
+
+All other commands (clipboard history, calculator, file search, window management, etc.) are Raycast built-ins — no extension needed.
 
 ## Key Settings
 
 - **Hotkey**: (set in Raycast → General)
 - **Theme**: (set in Raycast → Appearance)
-
-> To export a list of your installed extensions: open Raycast → Extensions → right-click any extension → Export.
