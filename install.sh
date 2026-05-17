@@ -31,5 +31,11 @@ fi
 echo "==> Git"
 link "$DOTFILES/git/gitconfig" "$HOME/.gitconfig"
 
+echo "==> iTerm2"
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$DOTFILES/iterm2"
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+echo "  iTerm2 will load prefs from $DOTFILES/iterm2"
+echo "  (restart iTerm2 to apply)"
+
 echo ""
 echo "Done. Restart your shell to apply changes."
