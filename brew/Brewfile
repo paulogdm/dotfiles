@@ -14,6 +14,7 @@ brew "pnpm"
 # Apps
 cask "font-fira-code"
 cask "iterm2"
+cask "logi-options+"
 cask "opencode-desktop"
 cask "slack"
 cask "spotify"

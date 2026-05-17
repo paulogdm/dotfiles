@@ -8,6 +8,8 @@ Personal configuration files for macOS.
 |-----|----------|-------|
 | Fish Shell | `fish/` | config.fish, fish_plugins, conf.d |
 | Git | `git/gitconfig` | Aliases and identity (no credentials) |
+| Homebrew | `brew/Brewfile` | All formulae and casks |
+| Logitech Options+ | `logitech/` | UI theme; button mappings can't be exported |
 | Raycast | `raycast/README.md` | Settings sync via Raycast account |
 | CleanShot X | `cleanshot/README.md` | Manual setup guide (no license stored) |
 
@@ -35,3 +37,4 @@ chmod +x install.sh
 - Raycast encrypted databases
 - CleanShot preferences plist (contains license)
 - `fish_variables` (contains Fisher internals; Fisher restores it via `fish_plugins`)
+- Logitech button mappings and macros (binary SQLite, no official export)
