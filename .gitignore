@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+
+# Secrets — never commit these
+*.plist
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*secret*
+*token*
+*license*
+*apikey*
+*.env
