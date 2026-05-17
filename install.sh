@@ -10,6 +10,13 @@ link() {
   echo "  linked $dst"
 }
 
+echo "==> Homebrew"
+if ! command -v brew &>/dev/null; then
+  echo "  installing Homebrew..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+brew bundle install --file="$DOTFILES/brew/Brewfile"
+
 echo "==> Fish Shell"
 link "$DOTFILES/fish/config.fish"   "$HOME/.config/fish/config.fish"
 link "$DOTFILES/fish/fish_plugins"  "$HOME/.config/fish/fish_plugins"

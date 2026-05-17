@@ -1,0 +1,21 @@
+tap "resend/cli"
+
+# CLI tools
+brew "docker"
+brew "docker-compose"
+brew "fish"
+brew "fnm"
+brew "gh"
+brew "kubernetes-cli"
+brew "mise"
+brew "platformio"
+brew "pnpm"
+
+# Apps
+cask "font-fira-code"
+cask "iterm2"
+cask "opencode-desktop"
+cask "slack"
+cask "spotify"
+cask "unnaturalscrollwheels"
+cask "visual-studio-code"
