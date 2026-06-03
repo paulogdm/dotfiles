@@ -1,5 +1,5 @@
 # CLI tools
-brew "docker"
+brew "docker", link: false
 brew "docker-compose"
 brew "fish"
 brew "fnm"
@@ -14,9 +14,9 @@ cask "font-fira-code"
 cask "iterm2"
 cask "logi-options+"
 cask "opencode-desktop"
-cask "languagetool"
 cask "slack"
 cask "spotify"
 cask "unnaturalscrollwheels"
 cask "visual-studio-code"
+cask "zed"
 cask "zoom"
