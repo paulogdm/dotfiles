@@ -1,0 +1,37 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git_panel": {
+    "file_icons": false
+  },
+  "terminal": {
+    "show_count_badge": false
+  },
+  "project_panel": {
+    "sort_mode": "files_first",
+    "hide_hidden": false,
+    "hide_root": false,
+    "git_status_indicator": true,
+    "diagnostic_badges": true,
+    "bold_folder_labels": true
+  },
+  "proxy": "",
+  "prettier": {
+    "allowed": true
+  },
+  "autosave": "on_focus_change",
+  "buffer_font_family": "Fira Code",
+  "icon_theme": "Catppuccin Frappé",
+  "redact_private_values": true,
+  "on_last_window_closed": "quit_app",
+  "when_closing_with_no_tabs": "close_window",
+  "ui_font_size": 16,
+  "buffer_font_size": 16.0,
+  "theme": "Gruvbox Dark Hard",
+}

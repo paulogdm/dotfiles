@@ -37,6 +37,10 @@ defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 echo "  iTerm2 will load prefs from $DOTFILES/iterm2"
 echo "  (restart iTerm2 to apply)"
 
+echo "==> Zed"
+link "$DOTFILES/zed/settings.json" "$HOME/.config/zed/settings.json"
+echo "  reinstall Zed extensions from $DOTFILES/zed/extensions.txt"
+
 echo "==> Node.js tools (via fnm)"
 eval "$(fnm env --shell bash)"
 npm install -g vercel
