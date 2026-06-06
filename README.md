@@ -12,6 +12,7 @@ Personal configuration files for macOS.
 | Logitech Options+ | `logitech/` | UI theme; button mappings can't be exported |
 | Raycast | `raycast/README.md` | Settings sync via Raycast account |
 | CleanShot X | `cleanshot/README.md` | Manual setup guide (no license stored) |
+| Zed | `zed/` | settings.json and extension install IDs |
 
 ## Install
 
@@ -36,5 +37,6 @@ chmod +x install.sh
 - API tokens / secrets
 - Raycast encrypted databases
 - CleanShot preferences plist (contains license)
+- Zed local databases, prompt DBs, extension payloads, language servers, and caches
 - `fish_variables` (contains Fisher internals; Fisher restores it via `fish_plugins`)
 - Logitech button mappings and macros (binary SQLite, no official export)

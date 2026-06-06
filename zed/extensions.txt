@@ -1,0 +1,19 @@
+# Zed extensions
+#
+# Zed stores installed extension payloads in:
+# ~/Library/Application Support/Zed/extensions/installed
+#
+# The payloads are generated app data, so this file tracks the install IDs
+# instead.
+catppuccin-icons
+colored-zed-icons-theme
+dockerfile
+git-firefly
+html
+log
+material-icon-theme
+sql
+svelte
+terraform
+toml
+vue
