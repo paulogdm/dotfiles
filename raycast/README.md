@@ -1,6 +1,8 @@
 # Raycast
 
-Raycast settings and extension data are stored in encrypted SQLite databases and cannot be exported as plain files. To restore on a new machine:
+Raycast is installed by the Homebrew cask in `brew/Brewfile`.
+
+Raycast settings and extension data are stored in encrypted SQLite databases under `~/Library/Application Support/com.raycast.macos` and cannot be exported as plain dotfiles. To restore on a new machine:
 
 1. Install Raycast from [raycast.com](https://www.raycast.com)
 2. Sign in to your Raycast account — cloud sync will restore your settings, hotkeys, and extensions automatically.

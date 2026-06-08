@@ -43,8 +43,10 @@ echo "  reinstall Zed extensions from $DOTFILES/zed/extensions.txt"
 
 echo "==> Node.js tools (via fnm)"
 eval "$(fnm env --shell bash)"
-npm install -g vercel
-npm install -g @anthropic-ai/claude-code
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME/bin:$PATH"
+pnpm install -g vercel
+pnpm install -g @anthropic-ai/claude-code
 
 echo "==> opencode CLI"
 curl -fsSL https://opencode.ai/install | sh
