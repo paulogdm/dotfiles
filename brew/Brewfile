@@ -2,6 +2,7 @@
 brew "docker", link: false
 brew "docker-compose"
 brew "fish"
+brew "fisher"
 brew "fnm"
 brew "gh"
 brew "kubernetes-cli"
