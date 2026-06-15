@@ -11,4 +11,5 @@ Not tracked:
 
 ## Restore extensions
 
-Zed's bundled CLI opens files and projects, but does not currently expose an extension install command on this machine. Reinstall these from Zed's Extensions panel using the IDs in `extensions.txt`.
+`settings.json` defines `auto_install_extensions` for the IDs in `extensions.txt`.
+After `install.sh` symlinks the settings file, launch or restart Zed and it will install the missing extensions on startup.

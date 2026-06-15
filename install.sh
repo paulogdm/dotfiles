@@ -119,7 +119,7 @@ info "(restart iTerm2 to apply)"
 
 echo "==> Zed"
 link "$DOTFILES/zed/settings.json" "$HOME/.config/zed/settings.json"
-info "reinstall Zed extensions from $DOTFILES/zed/extensions.txt"
+info "Zed will auto-install extensions listed in $DOTFILES/zed/settings.json on startup"
 
 install_node_tools
 install_opencode

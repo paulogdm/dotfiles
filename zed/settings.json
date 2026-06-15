@@ -7,11 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "existing_window",
   "git_panel": {
-    "file_icons": false
+    "file_icons": false,
   },
   "terminal": {
-    "show_count_badge": false
+    "show_count_badge": false,
   },
   "project_panel": {
     "sort_mode": "files_first",
@@ -19,15 +20,29 @@
     "hide_root": false,
     "git_status_indicator": true,
     "diagnostic_badges": true,
-    "bold_folder_labels": true
+    "bold_folder_labels": true,
   },
   "proxy": "",
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
   "autosave": "on_focus_change",
   "buffer_font_family": "Fira Code",
   "icon_theme": "Catppuccin Frappé",
+  "auto_install_extensions": {
+    "catppuccin-icons": true,
+    "colored-zed-icons-theme": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "html": true,
+    "log": true,
+    "material-icon-theme": true,
+    "sql": true,
+    "svelte": true,
+    "terraform": true,
+    "toml": true,
+    "vue": true,
+  },
   "redact_private_values": true,
   "on_last_window_closed": "quit_app",
   "when_closing_with_no_tabs": "close_window",
