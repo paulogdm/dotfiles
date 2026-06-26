@@ -60,8 +60,9 @@ restore_fish_plugins() {
 
   fish -c '
     if not functions -q fisher
-      echo "fisher is not available; check the Brewfile install." >&2
-      exit 1
+      echo "  installing fisher..."
+      curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
+      and fisher install jorgebucaran/fisher
     end
 
     fisher update
