@@ -13,6 +13,7 @@ brew "kubernetes-cli"
 brew "mise"
 brew "platformio"
 brew "pnpm"
+brew "poppler"
 brew "ripgrep"
 brew "tree"
 
